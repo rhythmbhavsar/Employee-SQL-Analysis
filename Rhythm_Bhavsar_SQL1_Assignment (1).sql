@@ -27,5 +27,6 @@ select distinct employees.DEPARTMENT_ID,jobs.JOB_TITLE from employees JOIN jobs 
 -- Q9 Write a SQL query to find those employees who joined before 1991. Return complete information about the employees.
 SELECT * FROM employees WHERE HIRE_DATE<('1991-1-1');
 
+
 -- Q10 Write a SQL query to compute the average salary of those employees who work as ‘ANALYST’. Return average salary.
 SELECT avg(employees.SALARY) FROM employees JOIN jobs on (employees.JOB_ID = jobs.JOB_ID) WHERE jobs.JOB_TITLE = 'ANALYST';
