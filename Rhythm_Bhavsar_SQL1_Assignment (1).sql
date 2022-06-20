@@ -1,4 +1,4 @@
--- Q1 Write a SQL query to find the salaries of all employees 
+-- Q1 Write a SQL query to find the salaries of all employees  
 select EMPLOYEE_ID, FIRST_NAME, LAST_NAME, SALARY from employees;
 
 -- Q2 Write a SQL query to find the unique designations of the employees. Return job name.
